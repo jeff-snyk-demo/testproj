@@ -6,3 +6,19 @@ patch:
   'npm:tunnel-agent:20170305':
     - node-jq > bin-build > download > caw > tunnel-agent:
         patched: '2018-11-06T18:55:39.133Z'
+    - tap > codecov.io > request > tunnel-agent:
+        patched: '2018-11-29T20:22:08.142Z'
+    - node-jq > bin-build > download > caw > tunnel-agent:
+        patched: '2018-11-29T20:22:08.142Z'
+  'npm:hawk:20160119':
+    - tap > codecov.io > request > hawk:
+        patched: '2018-11-29T20:22:08.142Z'
+  'npm:http-signature:20150122':
+    - tap > codecov.io > request > http-signature:
+        patched: '2018-11-29T20:22:08.142Z'
+  'npm:mime:20170907':
+    - tap > codecov.io > request > form-data > mime:
+        patched: '2018-11-29T20:22:08.142Z'
+  'npm:request:20160119':
+    - tap > codecov.io > request:
+        patched: '2018-11-29T20:22:08.142Z'
