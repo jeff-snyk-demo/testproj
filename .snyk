@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.1
+version: v1.13.3
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -10,6 +10,10 @@ patch:
         patched: '2018-11-29T20:22:08.142Z'
     - node-jq > bin-build > download > caw > tunnel-agent:
         patched: '2018-11-29T20:22:08.142Z'
+    - tap > codecov.io > request > tunnel-agent:
+        patched: '2019-01-02T19:27:49.639Z'
+    - node-jq > bin-build > download > caw > tunnel-agent:
+        patched: '2019-01-02T19:27:49.639Z'
   'npm:hawk:20160119':
     - tap > codecov.io > request > hawk:
         patched: '2018-11-29T20:22:08.142Z'
