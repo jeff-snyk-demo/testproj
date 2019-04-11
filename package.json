@@ -12,7 +12,7 @@
   "dependencies": {
     "chalk": "2.3.0",
     "express": "^4.14.0",
-    "protractor": "5.4.0"
+    "protractor": "6.0.0"
   },
   "devDependencies": {
     "tap": "^12.4.0"
