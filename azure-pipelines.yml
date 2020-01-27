@@ -1,0 +1,20 @@
+trigger:
+  - master
+
+pool:
+  vmImage: 'Ubuntu-16.04'
+
+steps:
+  - script: |
+      npm install
+    displayName: 'npm install'
+
+  - script: |
+      sudo npm install -g snyk
+      which snyk
+      sudo snyk auth $(SNYK_TOKEN)
+    displayName: 'install snyk'
+
+  - script: |
+      sudo snyk test
+    displayName: 'sudo snyk test'
