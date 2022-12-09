@@ -14,7 +14,7 @@
   "dependencies": {
     "chalk": "2.3.0",
     "create-react-class": "^15.7.0",
-    "express": "^4.14.0",
+    "express": "^4.17.3",
     "garnish": "^5.2.0",
     "hashmark": "^5.0.0",
     "jsx-control-statements": "^3.2.8",
